@@ -34,7 +34,7 @@ story (narration text), title (under 70 characters),
 description (short description with relevant hashtags).
 """
     response = client.models.generate_content(
-        model="gemini-3.8-flash", contents=prompt
+        model="gemini-3.5-flash-lite", contents=prompt
     )
     text = response.text.strip()
     text = re.sub(r"^```(?:json)?|```$", "", text).strip()
