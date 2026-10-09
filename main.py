@@ -191,4 +191,4 @@ def main():
     print("Finished creating and scheduling five Shorts.")
 
 if __name__ == "__main__":
-    print("Safety test passed: script reached the end without uploading videos.")
+    main()
